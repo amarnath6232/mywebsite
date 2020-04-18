@@ -1,0 +1,104 @@
+#experience {
+    padding: 100px;
+}
+
+p {
+    font-size: 13px;
+    line-height: 27px;
+    font-weight: 400;
+    padding-bottom: 33px;
+    margin: 0px;
+}
+
+h4,
+h5 {
+    color: #000;
+}
+
+h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+h5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    color: #372d38;
+    line-height: 24px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.proj-tittle {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.expertiesico {
+    font-family: "Crimson Text", serif;
+    font-size: 21px;
+    line-height: 24px;
+    color: #5b4c5c;
+    font-style: italic;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.expertiesdesc {
+    border-left: 2px solid #ada5ad;
+    padding: 0 0 0 69px;
+}
+
+.expertiesdesc p {
+    padding-bottom: 0;
+}
+
+.expertiesdesc h4 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.expertiesdesc h5 {
+    font-family: "Crimson Text", serif;
+    color: #5b4c5c;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    #experience {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: larger;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .expertiesico {
+        position: inherit;
+        left: 0%;
+        top: 0%;
+        transform: translate(0%, 0%);
+        margin-bottom: 10px;
+    }
+
+    .expertiesdesc {
+        padding: 0 0 0 10px;
+    }
+}

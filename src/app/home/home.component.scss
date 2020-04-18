@@ -1,0 +1,60 @@
+#home {
+    position: relative;
+    background-image: url("./../../assets/images/home.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+#home>.overlay {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    padding: 20% 0;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+#home h1 {
+    color: #FFFFFF;
+    line-height: 64px;
+    font-size: 44px;
+}
+
+#home-content>p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+#resume-btn {
+    border: #fff 1px solid;
+    padding: 12px 18px;
+    border-radius: 0px;
+    color: white;
+}
+
+#resume-btn:hover,
+#resume-btn:focus {
+    outline: none;
+    box-shadow: none;
+    border-bottom: blue 2px solid;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+    #home h1 {
+        line-height: 42px;
+        font-size: 24px;
+    }
+
+    #home-content{
+        margin-top: 22vh;
+    }
+
+    #home-content>p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+}

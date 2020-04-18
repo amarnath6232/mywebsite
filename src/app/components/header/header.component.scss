@@ -1,0 +1,38 @@
+#navbar {
+    padding: 1em;
+    height: 60px;
+}
+
+.navbar-header>a {
+    font-size: 16px;
+}
+
+.navbar-nav>li>a {
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid transparent;
+    padding: 8px 16px;
+    margin: 8px 4px;
+    text-transform: uppercase;
+    transition: font-size 0.5s;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a.active {
+    border: 1px solid whitesmoke;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+    #navbar {
+        height: auto;
+    }
+
+    .navbar-nav>li>a:hover,
+    .navbar-nav>li>a.active {
+        border: 0px solid whitesmoke;
+    }
+}

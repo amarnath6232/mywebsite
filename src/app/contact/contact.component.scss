@@ -1,0 +1,39 @@
+#contact {
+    padding: 100px;
+}
+
+#contact hr {
+    margin: 45px;
+}
+
+.contact-detail span {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.contact-detail span~h4 {
+    color: whitesmoke;
+    font: 300;
+    font-size: 16px;
+    padding: 2em;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+    #contact {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: larger;
+    }
+
+    #contact hr {
+        margin: 0px;
+    }
+
+    .contact-detail span~h4 {
+        padding: 1em;
+    }
+}
