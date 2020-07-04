@@ -10,6 +10,7 @@ export class ContactComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    // document.getElementById('per-loader').style.display = 'none';
   }
 
 }

@@ -9,7 +9,7 @@ import * as AOS from 'aos';
 export class AppComponent implements OnInit {
   ngOnInit() {
     AOS.init({
-      disable: 'mobile'
+      // disable: 'mobile'
     });
   }
 }
